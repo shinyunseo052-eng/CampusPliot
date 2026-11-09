@@ -88,7 +88,7 @@ function gpClearAll(){
    actually reach the API once this code runs on a normal webpage
    (e.g. the real GitHub Pages deployment) — inside the artifact
    preview it will fail fast and fall back to the demo templates. */
-var GP_SYLLABUS_API_URL = 'https://gradepilot-ai.vercel.app/api/parse-syllabus';
+var GP_SYLLABUS_API_URL = 'https://gradepilot-ai-two.vercel.app/api/parse-syllabus';
 
 if(window.pdfjsLib){
   pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
